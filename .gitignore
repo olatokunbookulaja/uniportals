@@ -1,0 +1,78 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend builds
+frontend/*/build/
+frontend/*/dist/
+frontend/*/.next/
+
+# Backend builds
+backend/dist/
+backend/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Uploads
+uploads/
+documents/
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# Docker
+.dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
